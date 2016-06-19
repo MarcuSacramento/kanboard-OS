@@ -1,0 +1,62 @@
+Version 1.2.1
+
+Updates for KB 1.0.27
+
+New features:
+- edit all colornames for a project in one form
+- edit application colornames in one form
+
+Changes:
+- move application colornames from language to app settings
+- use new helper registration for colors_helper
+
+Version 1.2.0
+-------------
+
+Updates for KB 1.0.25
+
+Version 1.1.1
+-------------
+
+Removed obsolete TemplateOverride file
+- project/filters
+- app/filters_helper
+
+Version 1.1.0
+-------------
+
+New features:
+
+- Introducing individual colornames for each project using ProjectMetadata
+- filter in dashboard shows system color names
+- filter in project shows individual color names
+
+Depends on:
+
+Kanboard Version 1.0.23
+
+- method to remove metadata
+
+Version 1.0.2
+-------------
+
+New features:
+
+- Add color filter to search in dashboard
+
+Changes:
+
+- moving filter from board view only to filters helper
+- overwriting app/Template/app/filters_helper.php (until official hook)
+
+Version 1.0.1
+-------------
+
+New features:
+
+- Add color filter to search in dashboard (experimental)
+
+Version 1.0.0
+-------------
+
+first public version
